@@ -1,0 +1,301 @@
+header{
+	background-color: #f4fc05;
+    position:absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+}
+.head{
+	background-color:#f4fc05;
+    padding-bottom: 50px;
+}
+.vop{
+	background-color:red;
+	
+}
+.vv{
+    display: flex;
+	text-align:center;
+	/*margin-left:450px;*/
+    justify-content: center;
+
+}
+
+.e1,.e2,.e3{
+	margin: 25px
+}
+main{
+	position: absolute;
+	right:0;
+	left:0;
+	top:340px;
+}
+.centered{
+	text-align:center;
+}
+.ober{
+	display:flex;
+	justify-content:center;
+	
+}
+.cnop{
+	border-radius:10px;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:red;
+	color:white;
+	margin-top:15px;
+}
+.foot1{
+	margin:30px 20px;
+	line-height:1.5;
+}
+
+
+.roz{
+	background-color:red;
+	box-shadow:10px 7px 30px 5px black;
+	margin-bottom:30px;
+}
+/*2 это тень*/
+.ober_roz{
+	display:flex;
+	justify-content:space-between;
+	padding-left:13px;
+	
+}
+.t_roz{
+	padding-top:15px;
+}
+.img_roz{
+	margin:7px;
+}
+
+
+/**/
+.zakaz{
+    font-weight:bolder;
+    font-size:25px;
+}
+.yel{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: yellow;
+    font-weight:900;
+    padding: 17px;
+}
+.korz{
+    margin-left: 28px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form{
+    display:flex;
+    justify-content: center;
+}
+.inputs{
+    box-shadow: 2px 1px 5px 0.5px black;
+    border:none;
+    max-width: 600px;
+    min-width: 300px;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #f1f1f1;
+    
+}
+.inputs:focus{
+    background-color: lightgoldenrodyellow;
+}
+
+
+/**/ 
+
+
+
+.mon{
+    background-color: forestgreen;
+    font-weight: 700;
+    padding: 8px;
+    border-radius: 7px;
+    color:white;
+}
+
+
+hr{
+    height: 0px;
+    border: 0px;
+    box-shadow: 2px 1px 5px 0.5px black;
+    max-width: 600px;
+    min-width: 300px;
+    margin-bottom: 30px;
+    
+}
+
+.fp{
+    border: 1px solid ;
+    position: fixed;
+    bottom: 4%;
+    right: 4%;
+    background-color: white;
+}
+.fp_2{
+    border: 1px solid;
+    position:fixed;
+    top:4%;
+    left:4%;
+    background-color: white;
+    opacity: 0;
+
+}
+
+
+.anim{
+    animation-name: anima;/*подключиние анимации*/
+    animation-duration: 5s;/*длительность анимации*/
+    animation-iteration-count: infinite;/*кол-во раз*/
+    animation-direction: alternate;/*способ проигрывания*/
+    animation-delay: 1s;/*задержка перед началом*/
+}
+
+@keyframes anima{
+    0%{
+        margin-left: 0%;
+        color: red;
+    }
+    50%{
+        color: aquamarine;
+    }
+    100%{
+        margin-left: 15%;
+        color: blue;
+    }
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top:0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+
+.modal-content{
+    background-color: #fefefe;
+    margin: 30% auto;
+    padding: 0px;
+    border: 1px solid black;
+    width:80%;
+    position: relative;
+    
+        animation-name: t_d;
+        animation-duration: 2s;
+
+}
+
+@keyframes t_d{
+    from{
+        top: -100px;
+        opacity: 0;
+    }
+    to{
+        top:0;
+        opacity: 1;
+    }
+}
+
+.close{
+    color: black;
+    float:right;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+.close:hover{
+    color:red;
+    cursor: pointer;
+}
+/*a:active{
+    color: green;
+}*/
+
+.esho:hover{
+    cursor: crosshair;
+    background-color: midnightblue;
+    color: snow;
+}
+
+.dos:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+
+.heder-m{
+    padding: 3px 10px;
+    background-color: lawngreen;
+    color: white;
+}
+
+.futer-m{
+    padding: 3px 10px;
+    background-color: lawngreen;
+    color: white;
+}
+
+.body-m{
+    padding: 3px 10px;
+}
+
+.s{
+    text-decoration: line-through;
+}
+
+.sk{
+    z-index: 1;
+    top: 50%;
+    left: 20%;
+    color: orangered;
+    font-size: 30pt;
+    font-weight: 900;
+    transform: rotate(30deg);/*наклон*/
+}
+.sk:hover{
+    cursor: pointer;
+    color: coral;
+}
+
+
+
+
+body{
+    background-image: url(img/f_2.png)
+}
+
+
+
+.heder-m2{
+    padding: 3px 10px;
+    background-color: coral;
+    color: white;
+}
+
+.futer-m2{
+    padding: 3px 10px;
+    background-color: orangered;
+    color: white;
+}
+
+.body-m2{
+    padding: 15px 10px;
+}
+
+.strel{
+    margin-top: 180px;
+}

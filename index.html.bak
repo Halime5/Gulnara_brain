@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>магазин одежды</title>
+<link rel="stylesheet" href="style.css">
+<script src="js.js"></script>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /><!--подключение библиотеки-->
+</head>
+<body>
+<header>
+	<div class="head">
+	<center><h3 class="animate__animated animate__bounce">футболки с надписями</h3></center>
+        <center><h3 class="animate__animated animate__slideInDown"><font color="red" size="6">499<sup>руб.</sup></font></h3></center>
+	<center><font class="vop" color="white">почему так дёшево?</font></center>
+		<div class="vv">
+		<div class="e1">
+		<center><img src="img/sale.png" width="100"><br>
+		распродажа</center>
+		</div>
+		<div class="e2">
+		<center><img src="img/gruzovik.png" width="100"><br>
+		доставка по всей России</center>
+		</div>
+		<div class="e3">
+		<center><img src="img/hit.png" width="93"><br>
+		только хиты</center>
+		</div>
+		</div><br>
+	
+	
+	</div>
+</header>
+<!-- тело сайта-->
+<main>
+	<section class="centered">
+	<div class="zaman">
+		<font size="6" ><b>ФУТБОЛКИ</b></font><br>
+		<font size="3" >100% хлопок</font>
+	</div>
+	
+	<div class="ober">
+	<div class="foot1">
+		<img src="img/1fot.png" width="300px" height="400PX" style="border:1px solid black"><br>
+		<font><b>футболка</b></font><br>
+		<font color="red" size="4"><b>499 Р</b></font><br>
+		<button class="cnop" onclick="massiv()">добавить в корзину</button>
+	</div>
+	
+	<div class="foot1">
+		<img src="img/2fot.png" width="300px" height="400PX" style="border:1px solid black"><br>
+		<font><b>футболка</b></font><br>
+		<font color="red" size="4"><b>499 Р</b></font><br>
+		<button class="cnop" onclick="srav()" id="t1">добавить в корзину</button>
+	</div>
+		
+	</div>
+	</section>
+	
+	<!--.....-->   
+	
+	<section class="centered">
+		<div class="raz" style="background-color:#D3D3D3; padding:15px;">
+		<font size="5">Как выбрать размер?</font>
+		</div>
+		
+	<div class="ober">
+			<div class="foot1">
+				<img src="img/sinf.png" width="300px" height="400PX" style="border:1px solid black"><br>
+				<font><b>футболка</b></font><br>
+				<font color="red" size="4"><b>499 Р</b></font><br>
+				<button class="cnop" onclick="c1()" id="id1">добавить в корзину</button>
+			</div>
+			
+			<div class="foot1">
+				<img src="img/sinf.png" width="300px" height="400PX" style="border:1px solid black"><br>
+				<font><b>футболка</b></font><br>
+				<font color="red" size="4"><b>499 Р</b></font><br>
+				<button class="cnop" onclick="c2()" id="id2">добавить в корзину</button><!--prompt поле ввода alert уведомление-->
+			</div>
+			
+			<div class="foot1">
+				<img src="img/sinf.png" width="300px" height="400PX" style="border:1px solid black"><br>
+				<font><b>футболка</b></font><br>
+				<font color="red" size="4"><b>499 Р</b></font><br>
+				<button class="cnop" onclick="c3()" id="id3">добавить в корзину</button>
+			</div>
+		
+	</div>
+	
+	<div class="ober">
+			<div class="foot1">
+				<img src="img/sinf.png" width="300px" height="400PX" style="border:1px solid black"><br>
+				<font><b>футболка</b></font><br>
+				<font color="red" size="4"><b>499 Р</b></font><br>
+				<button class="cnop" onclick="alert('добавлено в корзину')">добавить в корзину</button>
+			</div>
+			
+			<div class="foot1">
+				<img src="img/sinf.png" width="300px" height="400PX" style="border:1px solid black"><br>
+				<font><b>футболка</b></font><br>
+				<font color="red" size="4"><b>499 Р</b></font><br>
+				<button class="cnop" onclick="alert('добавлено в корзину')">добавить в корзину</button>
+			</div>
+			
+			<div class="foot1">
+				<img src="img/sinf.png" width="300px" height="400PX" style="border:1px solid black"><br>
+				<font><b>футболка</b></font><br>
+				<font color="red" size="4"><b>499 Р</b></font><br>
+				<button class="cnop" onclick="alert('добавлено в корзину')">добавить в корзину</button>
+			</div>
+		
+	</div>
+	</section>
+	
+	
+	
+<!--розыгрыш-->
+
+	<section class="roz">
+		<div class="ober_roz">
+			<div class="t_roz">
+			<font size="6" color="white">РОЗЫГРЫШ</font><br>
+			<font size="6" color="white"><b>10 000  </b><sup>руб.</sup></font><br>
+			<font size="5" color="yellow">среди обладателей <br>купонов</font><br>
+			<font size="4" color="white">вечером 1 июля команда розыграет приз в прямом эфире на акаунте @fjkgkghkgkbn.ru</font>
+			</div>
+			
+			
+			<div class="img_roz">
+			<img src="img/den.jpg" height="180" width="180" style="border:1px solid #696969;">
+			</div>
+		
+		</div>
+        
+        
+		
+	</section>
+    
+    <section class="korz">
+        <div class="zakaz">
+            <font>ВАШ ЗАКАЗ</font>
+        </div>
+        <div class="yel">
+            <font>ВАША КОРЗИНА ПУСТА!</font>
+        </div>
+        <div>
+          <font color="grey">В КОРЗИНЕ ПУСТО!</font>  
+        </div>
+        
+    </section>
+    
+    
+    <section class="form animate__animated animate__flip wow">
+        <form action="file:///C:/Users/Гульнара/Desktop/программирование/маме%20сайт/glav.html" target="_blank">
+            <h1>Оформление заказа</h1>
+            <label><b>ИМЯ</b></label><br>
+            <input type="text" class="inputs" placeholder="ВВЕДИТЕ ИМЯ" required><br>
+            
+            <label><b>ФАМИЛИЯ</b></label><br>
+            <input type="text" class="inputs" placeholder="ВВЕДИТЕ ФАМИЛИЯ" required><br>
+            
+            <label><b>ПОЧТА</b></label><br>
+            <input type="email" class="inputs" placeholder="ВВЕДИТЕ СВОЮ ПОЧТУ" required><br>
+            
+            <label><b>НОМЕР ТЕЛЕФОНА</b></label><br>
+            <input type="tel" class="inputs" placeholder="ВВЕДИТЕ НОМЕР ТЕЛЕФОНА" required><br>
+			<label><b>ПОЛ</b> </label>
+			<input type="radio">M
+			<input type="radio">Ж
+			
+            <font color="green">Оплата онлайн</font>
+            <hr>
+            <center><button class="mon">ОФОРМИТЬ ЗАКАЗ</button></center> <br>
+            <center><font color="blue" size='4' class='dos' onclick='shoum()'>условия доставки</font></center>
+        </form>
+        
+      
+        
+    </section>
+    <section><br><center><button class="cnop" id="btn1" onclic="dz()" onmouseover="test1()" onmouseout="test2()">добавить в корзину</button></center><center><button class="cnop" id="btn2" onmouseover="prov()" onmouseout="prov()">добавить в корзину</button></center></section>
+    <img src="img/tp.png" class="fp animate__animated animate__fadeInDownBig wow" width="70px" height="70px" onclick="tp()">
+    <img src="img/pod.png" class="fp_2 animate__animated animate__flip" width="70px" height="60px" onclick="metoda()">
+    
+   <div class="modal" id="modal1">
+       <div class="modal-content">
+          <div class="heder-m">
+           <span class="close" onclick="shoum()">&times;</span>
+           <h2>О длставке футболок</h2>   
+          </div>
+           
+           
+           <div class="body-m">
+               <p>При заказе от 1000 рублей доставка бесплатная <br>Также если у вас есть наша подарочная карта,<br> вы можете поучаствовать в конкурсе<br> на 2000 рублей подробности в нашем телеграм боте ↓</p>
+           </div>
+           <div class="futer-m">
+               <h3>@helper <br>Поддержка: 7 917 518 22 57</h3>
+           </div>
+       </div>
+   </div>
+   
+   <center><a href="file:///C:/Users/Гульнара/Desktop/программирование/маме%20сайт/glav.html"><button style="margin:6px auto" class="esho"><font>yutgyu</font></button></a></center>
+   
+</main>
+
+       
+
+        
+        
+                
+
+        
+        
+
+        
+        
+        
+        
+
+
+<script src="wow.min.js"></script>
+ <script>
+ new WOW().init();
+ </script><!--подключение wow-->
+</body>
+</html>

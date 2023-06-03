@@ -1,0 +1,78 @@
+header{
+	background-color: #f4fc05;
+	position:absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+}
+.head{
+	background-color:#f4fc05;
+}
+.vop{
+	background-color:red;
+	
+}
+.vv{
+	display:flex;
+	text-align:center;
+	margin-left:450px;
+
+
+}
+.e1{
+	padding-top:25px;
+}
+.e2{
+	padding-bottom:0px;
+}
+.e3{
+	padding-top:0px;
+}
+.e1,.e2,.e3{
+	margin:10px;
+}
+main{
+	position:absolute;
+	right:0;
+	left:0;
+	top:340px;
+}
+.centered{
+	text-align:center;
+}
+.ober{
+	display:flex;
+	justify-content:center;
+	
+}
+.cnop{
+	border-radius:10px;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:red;
+	color:white;
+	margin-top:15px;
+}
+.foot1{
+	margin:30px 20px;
+	line-height:1.5;
+}
+
+
+.roz{
+	background-color:red;
+	box-shadow:10px 7px 30px 5px black;
+}
+/*2 это тень*/
+.ober_roz{
+	display:flex;
+	justify-content:space-between;
+	padding-left:13px;
+}
+.t_roz{
+	padding-top:15px;
+}
+.img_roz{
+	margin:7px;
+}
+/**/
